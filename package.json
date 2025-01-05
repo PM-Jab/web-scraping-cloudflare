@@ -12,8 +12,15 @@
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.5.2",
     "@cloudflare/workers-types": "^4.20241230.0",
+    "@types/request-promise": "^4.1.51",
+    "puppeteer-core": "^23.11.1",
+    "request-promise": "^4.2.6",
     "typescript": "^5.5.2",
     "vitest": "2.1.8",
     "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7"
   }
 }
