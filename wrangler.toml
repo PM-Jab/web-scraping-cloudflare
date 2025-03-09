@@ -5,7 +5,7 @@ compatibility_date = "2024-12-30"
 compatibility_flags = ["nodejs_compat"]
 
 [triggers]
-crons = ["*/30 16 * * 2-6"]
+crons = ["*/5 3-9 * * 2-6"] #UTC time
 
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/

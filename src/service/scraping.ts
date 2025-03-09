@@ -13,8 +13,6 @@ const setScraping = async (): Promise<stockData[]> => {
 
 	const mod = fakeHeader.result.length;
 
-	console.log('fakeHeader amount: ', mod);
-
 	for (let i = 0; i < set100.length; i++) {
 		const symbol = set100[i];
 		const response = await fetch(`https://www.set.or.th/th/market/product/stock/quote/${symbol}/price`, {
